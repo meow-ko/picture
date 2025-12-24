@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Lovely Page</title>
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center; 
+            min-height: 100vh;
+            background-color: #ffcce7;
+            font-family: "Comic Sans MS", cursive, sans-serif;
+            margin: 0;
+        }
+
+        h1 {
+            color: #ff66b2; 
+            text-align: center;
+            font-size: 2em;
+            margin: 20px 0;
+            text-shadow: 1px 1px 3px white;
+        }
+
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+            justify-items: center;
+            align-items: center;
+            max-width: 1000px;
+        }
+
+        img {
+            border: 5px solid #ff99cc;
+            border-radius: 20px;
+            box-shadow: 0 4px 12px rgba(255, 102, 178, 0.4);
+            width: 300px;
+            height: 300px;
+            object-fit: cover;
+        }
+
+        button {
+            margin-top: 30px;
+            padding: 12px 24px;
+            font-size: 18px;
+            background-color: #ffb6d9;
+            color: white;
+            border: none;
+            border-radius: 25px;
+            cursor: pointer;
+            box-shadow: 0 4px 8px rgba(255, 102, 178, 0.4);
+            transition: all 0.3s ease;
+        }
+
+        button:hover {
+            background-color: #ff80c1;
+            transform: scale(1.1);
+        }
+    </style>
+</head>
+<body>
+    <h1>Cutiee Pictures 💕</h1>
+
+    <div class="gallery">
+        <img src="./assets/meow1.jpg" alt="Cutie Picture">
+        <img src="./assets/meow2.jpg" alt="Cutie Picture">
+        <img src="./assets/meow3.jpg" alt="Cutie Picture">
+        <img src="./assets/meow4.jpg" alt="Cutie Picture">
+        <img src="./assets/meow5.jpg" alt="Cutie Picture">
+        <img src="./assets/meow6.jpg" alt="Cutie Picture">
+        <img src="./assets/meow7.jpg" alt="Cutie Picture">
+        <img src="./assets/meow8.jpg" alt="Cutie Picture">
+        <img src="./assets/meow9.jpg" alt="Cutie Picture">
+    </div>
+</body>
+</html>
